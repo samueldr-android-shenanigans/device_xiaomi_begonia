@@ -17,3 +17,7 @@ ro.kernel.zio=38,108,105,16
 
 # Netflix
 ro.netflix.bsp_rev=MTK6785-18758-1
+
+# Prevent init.svc.console from running
+# (Can't build as `user`)
+ro.debuggable=0
